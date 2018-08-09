@@ -79,17 +79,17 @@ void loop()
 
     if (Blinker.toggle(WATEROUT)) {
         digitalWrite(BENG1,HIGH);
-        }
+    }
     else{
         digitalWrite(BENG1,LOW);
-      }
+    }
      
      if (Blinker.toggle(WATERIN)) {
         digitalWrite(BENG2,HIGH);
-        }
+     }
     else{
         digitalWrite(BENG2,LOW);
-      }
+    }
    
 }
 
